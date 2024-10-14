@@ -1,1 +1,111 @@
-/*# sourceMappingURL=style.css.map */
+.hero-section .container .logo a {
+  font-family: Rubik;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: center;
+  color: #FC8019;
+}
+.hero-section .menu a {
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: center;
+  color: #000;
+}
+.hero-section .hero-content .search-box h3 {
+  font-family: Rubik;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
+}
+.hero-section .hero-content .search-box .search-input {
+  font-family: Rubik;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 16px;
+  text-align: center;
+  color: #000;
+}
+
+.btn.primary_btn {
+  background-color: #FC8019;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: center;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  width: calc(100% - 120px);
+}
+
+a {
+  text-decoration: none;
+}
+
+.hero-section .container nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 28px 0;
+}
+.hero-section .container nav .menu {
+  display: flex;
+  align-items: center;
+}
+.hero-section .container nav .menu ul {
+  display: flex;
+  list-style: none;
+}
+.hero-section .container nav .menu ul li {
+  margin-right: 20px;
+}
+.hero-section .hero-content {
+  background-image: url("../Image/hero_section/Hero_background.png");
+  background-size: cover;
+  background-position: center;
+  padding: 180px 0;
+}
+.hero-section .hero-content .container .search-box {
+  max-width: 900px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 57px 40px;
+  background: rgba(85, 85, 85, 0.5); /* Dark transparent background */
+  border: 1px solid rgba(85, 85, 85, 0.25); /* Light border to enhance the glass effect */
+  border-radius: 10px; /* Optional: For rounded corners */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Subtle shadow for depth */
+}
+.hero-section .hero-content .container .search-box .search-input {
+  width: 100%;
+  max-width: 500px;
+  margin-top: 32px;
+  padding: 0 10px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+.hero-section .hero-content .container .search-box .search-input input {
+  width: 100%;
+  padding: 14px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}/*# sourceMappingURL=style.css.map */

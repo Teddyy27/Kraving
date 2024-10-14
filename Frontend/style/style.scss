@@ -1,0 +1,95 @@
+@import "crash_style";
+@import"variables";
+@import "typography";
+@import "button";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    width: calc(100% - 120px);
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.hero-section {
+    .container {
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 28px 0;
+
+            .menu {
+                display: flex;
+                align-items: center;
+
+                ul {
+                    display: flex;
+                    list-style: none;
+
+                    li {
+                        margin-right: 20px;
+
+                    }
+                }
+
+
+            }
+        }
+    }
+
+    .hero-content {
+        background-image: url('../Image/hero_section/Hero_background.png');
+        background-size: cover;
+        background-position: center;
+        padding: 180px 0;
+
+        .container {
+            .search-box {
+                max-width: 900px;
+                width: 100%;
+                margin: 0 auto;
+                padding: 57px 40px;
+                //glass morphism effect
+
+                background: rgba(85, 85, 85, 0.5); /* Dark transparent background */
+                // -webkit-backdrop-filter: blur(3px); /* Blur effect for Safari */
+                // backdrop-filter: blur(3px); /* Blur effect for other browsers */
+                border: 1px solid rgba(85, 85, 85, 0.25); /* Light border to enhance the glass effect */
+                border-radius: 10px; /* Optional: For rounded corners */
+                box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Subtle shadow for depth */
+                
+
+                .search-input {
+                    width: 100%;
+                    max-width: 500px;
+                    margin-top: 32px;
+                    padding: 0 10px;
+                    border: none;
+                    border-radius: 5px;
+                    outline: none;
+
+                    input {
+                        width: 100%;
+                        padding: 14px;
+                        border: none;
+                        border-radius: 5px;
+                        outline: none;
+                    }
+
+                }
+
+            }
+        }
+    }
+}
