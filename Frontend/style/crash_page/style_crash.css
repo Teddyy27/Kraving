@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  background-color: #f7f7f7;
+}
+body .error-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 800px;
+  padding: 20px;
+  text-align: center;
+}
+@media (min-width: 768px) {
+  body .error-page {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+}
+body .error-page .error-image {
+  flex: 1;
+  margin-bottom: 20px;
+}
+body .error-page .error-image img {
+  width: 100%;
+  height: auto;
+  max-width: 300px;
+  border-radius: 8px;
+}
+body .error-page .error-message {
+  flex: 1;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+body .error-page .error-message h1 {
+  color: #333;
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+body .error-page .error-message p {
+  color: #333;
+  margin-bottom: 15px;
+  font-size: 1rem;
+}
+body .error-page .error-message button {
+  background-color: #ff8800;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+body .error-page .error-message button:hover {
+  background-color: #cc6e00;
+}/*# sourceMappingURL=style_crash.css.map */
